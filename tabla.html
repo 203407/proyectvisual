@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bulma.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card addatos">
+        <div class="card-content">
+          <div class="content">
+            
+            <form action="">                                           
+                <input type="button" onclick="addData();" value="Agregar" class="enviarD">                                
+                <!-- <button class="button enviarD" onclick="addData();">Agregar</button> -->
+                <input class="input tabla-add nombre" type="text" placeholder="nombre" id="nombres">
+                <input class="input tabla-add " type="text" placeholder="apellido P" id="ap_pat">                                   
+                <input class="input tabla-add apm" type="text" placeholder="apellido M" id="ap_mat">
+                <input class="input tabla-add " type="text" placeholder="edad" id="edad">                                                       
+            </form>            
+
+          </div>
+        </div>
+      </div>  
+
+      <div class="card tabla">
+        <div class="card-content">
+          <div class="content">
+            
+            <div  class="contenido-tabla">              
+              <pre>nombre     Ap paterno      Ap materno      Edad</pre>
+              <div id="codigohtml">
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>  
+
+</body>
+<footer>
+    <script src="./main.js"></script>
+</footer>
+</html>

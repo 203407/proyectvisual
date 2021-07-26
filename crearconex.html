@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./bulma.css">
+    <title>conex</title>
+</head>
+
+<body>
+    <div class="card row-custom">
+        <div class="card-content">
+            <div class="content" >
+                <div class="columns">
+
+                    <div class="column">
+                        <input id="host" class="input-custom input is-primary" type="text" placeholder="Host">                        
+                        <input id="user" class="input-custom input is-primary" type="text" placeholder="User">                        
+                        <input id="password" class="input-custom input is-primary" type="password" placeholder="Password">
+                        <input id="database" class="input-custom input is-primary" type="text" placeholder="Database">
+                    </div>
+
+                    <div class="column">                      
+                        <button class="button is-primary buton-conect" style="width: 100% !important;" onclick="co();">Conectar</button>                                                
+                    </div>                                        
+                    <textarea name="" id="txtData" cols="30" rows="10">
+
+                    </textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <script src="./main.js"></script>               
+</footer>
+
+
+</html>

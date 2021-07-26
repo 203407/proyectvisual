@@ -1,0 +1,98 @@
+.input-custom {
+    border-color: chocolate !important;
+    display: block;
+}
+
+.row-custom {
+    top: 70px !important;
+    width: 90%;
+    height: auto !important;
+    left: 5%;
+    border: 3px solid;
+}
+
+.login{   
+    width: 40%;            
+    left: 30%;
+    top: 50px;  
+    text-align: center;
+    background: rgb(144, 165, 146);
+}
+
+body{
+    background: rgb(105, 123, 126);
+    height: 100vh;
+}
+
+.imagen{
+    width: 30%;
+}
+
+.input{
+    top: -10px;
+    margin-top: 10px;
+    width: 30%;     
+    height: 30px;
+}
+.input-log{
+    width: 65%;    
+    height: 30px;
+    margin-top: 10px;
+}
+
+.contendero-boton{
+    margin-top: 15px;
+}
+.addatos{
+    top: 5%;
+    width: 70%;
+    left: 15%;
+    height: 120px;
+    border-radius: 30px;
+}
+
+.nombre{        
+    margin-right: 3%;
+    margin-left: 30%;
+}
+.apm{    
+    margin-left: 30%;
+    margin-right: 3%;
+}
+
+.botonadd{
+    width: 120px;
+    height: 50px;
+    position: absolute;    
+    top: 35px;
+}
+
+.tabla{
+    top: 10%;
+    width: 70%;
+    left: 15%;
+    height: 500px;
+}
+
+.enviarD{
+    width: 85px;
+    height: 45px;
+    margin: 0;
+    position: absolute;
+    top :30%;
+    left:  50px;
+    background-color: rgb(159, 218, 218);   
+    border: none;   
+    box-shadow: 2px 2px 2px black;    
+}
+
+.input-login{
+    width: 85px;
+    height: 35px;        
+    background-color: rgb(159, 218, 218);    
+    border: 1px solid ;     
+}
+
+.buton-conect{
+    top: 75px;
+}
